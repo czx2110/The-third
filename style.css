@@ -332,10 +332,6 @@ article>.author-box, {
     display: inline-block;
 }
 
-button:hover{
-    background-color:rgb(247, 213, 92)
-}
-
 .related-text {
     width: 90px;
     height: 45px;
@@ -366,30 +362,18 @@ button:hover{
 
 }
 
-.related-item>a>img {
+.related-item>img {
     width: 20%;
     vertical-align: middle;
 }
 
-.related-item>a>div {
+.related-item>div {
     display: inline-block;
     width: 70%;
     vertical-align: middle;
     line-height: 1.5;
     padding-left: 20px;
 }
-
-.related-item>a>div>p {
-vertical-align:middle;
-line-height: 1.5;
-justify-content:center;
-padding-top:20px;
-}
-
-article>div>a:hover {     
-    cursor: pointer;
-    text-decoration:none;
-    color:#313131 }
 
 .clickable {
     cursor: pointer;
