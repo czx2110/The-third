@@ -1,5 +1,10 @@
 
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Noto Sans TC', 'SourceHanSansTWHK',  'PingFang TC','Microsoft JhengHei', 'Apple LiGothic Medium', 'Roboto', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
     ;
