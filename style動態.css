@@ -472,6 +472,12 @@ footer>div>div {
     z-index: -1;
     transition:transform 3s linear 1s;
     background-color: white;
+    transform: translateY(0px);
+}
+
+.to-animate .layer-middle1,
+.to-animate .layer-middle2,
+.to-animate .layer-middle3 {
     transform: translateY(-100%);
 }
 .layer-middle2 {
