@@ -543,7 +543,7 @@ footer>div>div {
     }
   }
   
-  .fadeIn {
+.fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
@@ -574,6 +574,7 @@ footer>div>div {
     top: 0px;
     z-index: -3;
     animation: linear 1.5s;
+    animation-delay:0.3s;
 }
 
 .layer3{
@@ -582,6 +583,7 @@ footer>div>div {
     top: 0px;
     z-index: -4;
     animation:  linear 1.5s;
+    animation-delay:1s;
 }
 
 .layer4{
@@ -590,4 +592,5 @@ footer>div>div {
     top: 0px;
     z-index: -5;
     animation:  linear 1.5s;
+    animation-delay:2.5s;
 }
