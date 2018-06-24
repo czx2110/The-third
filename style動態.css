@@ -467,7 +467,7 @@ footer>div>div {
 .layer-middle1 {
     position: absolute;
     left: 0;
-    width: calc(424/226*100%);
+    width: calc(226/678*100%);
     height: 100%;
     z-index: -1;
     transition:transform 3s linear 1s;
@@ -477,7 +477,7 @@ footer>div>div {
 .layer-middle2 {
     position: absolute;
     left:calc(226/678*100%)
-    width: calc(424/226*100%);
+    width: calc(226/678*100%);
     height: 100%;
     z-index: -1;
     transition:transform 3s linear 2.5s;
@@ -487,7 +487,7 @@ footer>div>div {
 .layer-middle3 {
     position: absolute;
     left:calc(452/678*100%)
-    width: calc(424/226*100%);
+    width: calc(226/678*100%);
     height: 100%;
     z-index: -1;
     transition:transform 3s linear 4s;
