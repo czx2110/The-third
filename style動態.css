@@ -474,9 +474,9 @@ footer>div>div {
     background-color: white;
 }
 
-.to-animate .layer-middle1,
-.to-animate .layer-middle2,
-.to-animate .layer-middle3 {
+.to-animate1 .layer-middle1,
+.to-animate1 .layer-middle2,
+.to-animate1 .layer-middle3 {
     transform: translateY(-100%);
 }
 .layer-middle2 {
@@ -502,4 +502,56 @@ footer>div>div {
     left: 0px;
     top: 0px;
     z-index: 1;
+}
+
+.to-animate2 .layer2
+.to-animate2 .layer3
+.to-animate2 .layer4 {
+    animation: fadeIn
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+
+.layer1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.layer2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    animation: fadeIn 1s linear 0.5s;
+}
+
+.layer3{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    animation: fadeIn 1s linear 1.5s;
+}
+
+.layer4{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+    animation: fadeIn 1s linear 2.5s;
 }
