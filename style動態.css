@@ -507,10 +507,23 @@ footer>div>div {
 .to-animate2 .layer2,
 .to-animate2 .layer3,
 .to-animate2 .layer4 {
-    animation: fadeIn
+    opacity:0;
+    opacity: 1 \9; /*just in case ie*/
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+    animation-name:fadeIn;
 }
 
-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
     from {
       opacity: 0;
     }
@@ -520,7 +533,17 @@ footer>div>div {
     }
   }
   
-.fadeIn {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
@@ -532,26 +555,39 @@ footer>div>div {
     z-index: 1;
 }
 
+.to-animate2 .hide{
+    transform: rotateY(90deg);
+    transition-delay: 2s;
+}
+
+.layer-hide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: white;
+}
+
 .layer2{
     position: absolute;
     left: 0px;
     top: 0px;
-    z-index: 0;
-    animation: fadeIn 1s linear 0.5s;
+    z-index: -3;
+    animation: linear 1.5s;
 }
 
 .layer3{
     position: absolute;
     left: 0px;
     top: 0px;
-    z-index: -1;
-    animation: fadeIn 1s linear 1.5s;
+    z-index: -4;
+    animation:  linear 1.5s;
 }
 
 .layer4{
     position: absolute;
     left: 0px;
     top: 0px;
-    z-index: -2;
-    animation: fadeIn 1s linear 2.5s;
+    z-index: -5;
+    animation:  linear 1.5s;
 }
