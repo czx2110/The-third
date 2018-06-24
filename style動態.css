@@ -472,7 +472,6 @@ footer>div>div {
     z-index: -1;
     transition:transform 3s linear 1s;
     background-color: white;
-    transform: translateY(0px);
 }
 
 .to-animate .layer-middle1,
@@ -488,7 +487,6 @@ footer>div>div {
     z-index: -1;
     transition:transform 3s linear 2.5s;
     background-color: white;
-    transform: translateY(-100%);
 }
 .layer-middle3 {
     position: absolute;
@@ -498,7 +496,6 @@ footer>div>div {
     z-index: -1;
     transition:transform 3s linear 4s;
     background-color: white;
-    transform: translateY(-100%);
 }
 .layer-top{
     position: absolute;
