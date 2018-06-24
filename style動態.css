@@ -504,8 +504,8 @@ footer>div>div {
     z-index: 1;
 }
 
-.to-animate2 .layer2
-.to-animate2 .layer3
+.to-animate2 .layer2,
+.to-animate2 .layer3,
 .to-animate2 .layer4 {
     animation: fadeIn
 }
