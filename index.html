@@ -2,9 +2,9 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style動態.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
-
+    <link rel="stylesheet" type="text/css" href="fadein.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <style>
@@ -77,10 +77,12 @@
         <p>
             民眾黃琳琇表示，無防腐劑添加之化粧品是首選，雖保存期限短，但對肌膚較好；張淑潔則認為防腐劑有加速皮膚老化的疑慮。不少民眾擔心防腐劑會傷害皮膚，然化粧品添加防腐劑卻是必要之惡。根據衛生福利部食品藥物管理署規定，洗面乳等立即沖洗掉的產品之防腐劑最多可含5%；塗抹在臉上的底妝類可添加0.05%至1%；唇膏、唇釉因接觸黏膜部位，防腐劑含量則不可超過0.01%。
         </p>
-        <div style="position: relative; padding-bottom: calc(678/424*100%);">
-            <img class="layer-top" src="防腐劑圖表素材-01.png" width=100% alt=茂林國中></img>
-            <div class="layer-middle"></div>
-            <img class="layer-bottom" src="防腐劑圖表素材-02.png" width=100% alt=茂林國中></img>
+        <div id="animate-1" style="position: relative; padding-bottom: calc(424/678*100%);">
+            <img class="layer-top" src="防腐劑圖表素材-01.png" width=100% alt=化妝品防腐劑></img>
+            <div class="layer-middle1"></div>
+            <div class="layer-middle2"></div>
+            <div class="layer-middle3"></div>
+            <img class="layer-bottom" src="防腐劑圖表素材-02.png" width=100% alt=化妝品防腐劑></img>
         </div>
 
         <p>
@@ -92,8 +94,16 @@
         <p>
             不過化粧品開封太久，仍難逃變質危機。開封後的使用期限（Period After Opening，PAO），平均來說底妝類產品可使用三年；唇彩、唇膏一年內有效；眼妝產品大約四到六個月，而眼線液則必須在三個月內用完。市售化粧品雖主打天然植萃或無添加，但多數化粧品其實都含防腐劑，民眾反而更應注意使用習慣，才不會變美不成卻換來一張大花臉。
         </p>
+        <div  id="animate-2" style="position: relative; padding-bottom: calc(424/678*100%);">
+            
+            <img class="layer1"  src="pao-01.png" width=100% alt=PAO></img>
+            <div class="hide"><div class="layer-hide"></div></div>
+            <img class="layer2" src="pao-02.png" width=100% alt=PAO></img>
+            <img class="layer3" style="animation-delay:1s;"src="pao-03.png" width=100% alt=PAO></img>
+            <img class="layer4" style="animation-delay:2s;"src="pao-04.png" width=100% alt=PAO></img>
+        </div>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Nr5hncRP05w" frameborder="0" allow="autoplay; encrypted-media"
+        <iframe width="678" height="382" src="https://www.youtube.com/embed/Nr5hncRP05w" frameborder="0" allow="autoplay; encrypted-media"
             allowfullscreen></iframe>
 
         <!--tags-->
@@ -133,11 +143,11 @@
         <!--further readings-->
         <div class=related-text>延伸閱讀</div>
         <div class="related-item clickable">
-            <img src="image5.jpg"></img>
-            <div>延伸閱讀一：化水種外展地。年們過灣視世了客光氣河風生開但電人念教示這</div>
+            <img src="0茂林景用.jpg"></img>
+            <div>延伸閱讀一：迷惘的十五歲——十二年國教時代　偏鄉升學路漫漫</div>
         </div>
         <div class="related-item clickable">
-            <img src="image6.jpg"></img>
+            <img src="Lucas-big-image.png"></img>
             <div>延伸閱讀二：刻同雨麼都園真上男、不河組專為，那身就的足再人就</div>
         </div>
 
@@ -174,6 +184,28 @@
 
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script>
+        new Waypoint({
+            element: document.getElementById('animate-1'),
+            offset: "50%",
+            handler: function (direction) {
+                var ele =document.getElementById('animate-1');
+                ele.className += " to-animate1";
+            }
+        })
+
+         new Waypoint({
+            element: document.getElementById('animate-2'),
+            offset: "50%",
+            handler: function (direction) {
+                var ele =document.getElementById('animate-2');
+                ele.className += " to-animate2";
+            }
+        })
+
+    </script>
 </body>
 
 </html>

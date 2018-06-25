@@ -4,32 +4,48 @@
 }
 
 .card {
+<<<<<<< HEAD
     background-color: white;
     border: none;
     padding: 0px;
     text-align: center;
     box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3)
     
+=======
+    background-color: transparent;
+    border: none;
+    padding: 30px;
+    text-align: center;
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 }
 
 .card:hover  {
     color:#ed6a5a;
+<<<<<<< HEAD
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+=======
+    
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 
 }
 a{
     color:black
 }
 .card:hover a{
+<<<<<<< HEAD
     color:#4281a4;
+=======
+    color:#ed6a5a;
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
     text-decoration: none
     
 
 }
 
 
+<<<<<<< HEAD
 .non-display{display:none; 
 }
 .card:hover .non-display{display:inline
@@ -76,6 +92,16 @@ display:none;
     margin-top: -40px;
     min-width: 55px;
     color: white;}
+=======
+.non-display{display:none
+}
+.card:hover .non-display{display:inline
+}
+.card:hover .display{
+display:none;
+}
+
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 .card-title {
     text-align: center;
     font-weight: bolder;
@@ -83,6 +109,7 @@ display:none;
 
 }
 
+<<<<<<< HEAD
 
 .card-img-top {
     width: 100%;
@@ -98,10 +125,16 @@ display:none;
     text-align: justify;
  padding-left:40px;
  padding-right:40px
+=======
+.card-text{
+    font-size: 16px;
+    text-align: justify
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 
 }
 .card-bottom {
 
+<<<<<<< HEAD
   font-family: FontAwesome;
 
     text-align:center;
@@ -111,6 +144,16 @@ display:none;
     font-weight: 900;
     text-decoration: 1px dotted;
    
+=======
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+   font-weight: 900
+    
+
+
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 
 }
 .card-body{
@@ -120,6 +163,10 @@ padding-right:0px;
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 .footer-circle {
     width: 64px;
     height: 64px;
@@ -160,6 +207,7 @@ footer>div>div {
     footer>div>div {
         width: 50%
     }
+<<<<<<< HEAD
     .bookmarks{width: 0px;
       height: 0px;
       border-top: 20px solid white;
@@ -193,6 +241,8 @@ font-size:10px
 }
 
 
+=======
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 }
 
 @media screen and (min-width: 1024px) {
@@ -209,6 +259,7 @@ font-size:10px
 }
 
 .flex-footer>img {
+<<<<<<< HEAD
     min-width:300px;
     margin-bottom: 48px;
 }
@@ -444,3 +495,8 @@ body {
 
 		
 			
+=======
+    min-width: 114px;
+    margin-bottom: 48px;
+}
+>>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
