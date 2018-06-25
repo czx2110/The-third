@@ -557,7 +557,6 @@ footer>div>div {
 
 .to-animate2 .hide{
     transform: rotateY(90deg);
-    transition-delay: 0.2s;
 }
 
 .layer-hide{
@@ -573,7 +572,7 @@ footer>div>div {
     left: 0px;
     top: 0px;
     z-index: -3;
-    animation: linear 1.5s;
+    animation: linear 2s;
 
 }
 
@@ -582,7 +581,7 @@ footer>div>div {
     left: 0px;
     top: 0px;
     z-index: -4;
-    animation:  linear 1.5s;
+    animation:  linear 2s;
 
 }
 
@@ -591,5 +590,5 @@ footer>div>div {
     left: 0px;
     top: 0px;
     z-index: -5;
-    animation:  linear 1.5s;
+    animation:  linear 2s;
 }
