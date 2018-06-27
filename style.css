@@ -196,6 +196,11 @@ article>.author-box, {
     font-size:14px;
 }
 
+.card-img{
+    width:100vw; 
+    min-height:230px
+}
+
 .card-title{
     font-size:25px;
     font-weight:bold;
@@ -213,6 +218,20 @@ article>.author-box, {
         font-size:30px;
         font-weight:bold;
     }
+    .float-right{
+        width:300px;
+        float: left;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+    .float-left{
+        width:300px;
+        float: right;
+        margin-top: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -226,6 +245,21 @@ article>.author-box, {
 .card-title{
     font-size:50px;
     font-weight:bold;
+    
+}
+.float-right{
+    width:360px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.float-left{
+    width:360px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
 }
 }
 
@@ -254,9 +288,6 @@ article>.author-box, {
     font-size: 20px;
     color: #50484c
 }
-
-
-
 
 .author-name {
     margin-top: 10px;
@@ -454,9 +485,6 @@ footer>div{
     background-color: #ED6A5A;
 }
 
-footer>div>div {
-    width:225px
-}
 
 @media screen and (max-width: 768px) {
     .flex-footer {
@@ -473,6 +501,9 @@ footer>div>div {
     }
     footer>div>div {
         width:25%；
+    }
+    footer>div>div {
+        width:225px
     }
 }
 
