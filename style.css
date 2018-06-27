@@ -439,6 +439,16 @@ article>div>a:hover {
     font-weight:550;
 }
 
+.clickable-menu {
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.clickable-menu:hover{
+    cursor: pointer;
+    background: #ddd;
+}
+
 .related-item:hover {
     background-color: rgb(247, 213, 92) ;
 }

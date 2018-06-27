@@ -380,18 +380,19 @@ article>.author-box, {
 
 }
 
-.related-item>img {
+.related-item>a>img {
     width: 20%;
     vertical-align: middle;
 }
 
-.related-item>div {
+.related-item>a>div {
     display: inline-block;
     width: 70%;
     vertical-align: middle;
     line-height: 1.5;
     padding-left: 20px;
 }
+
 
 .clickable {
     cursor: pointer;
