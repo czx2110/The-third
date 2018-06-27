@@ -1,51 +1,112 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', 'SourceHanSansTWHK', 'PingFang TC', 'Microsoft JhengHei', 'Apple LiGothic Medium', 'Roboto', 'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
+}
+
+.body {
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+.nav {
+  position: relative;
+  width: 100vw;
+  height: 70px;
+  background-color: #132129
+}
+
+.nav-container {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 70px;
+  margin: 0 3%
+}
+
+.menu-logo {
+  box-sizing: border-box;
+  padding-top: 10px;
+  height: 65px;
+  margin: 0% 10%
+}
+
+.full-vp {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.full-vp>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-title {
+  font-size: 24pt;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.mid-text {
+  font-size: 16pt;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+
+
+.carousel-item:hover .carousel-title {
+  transform: scale(1.1, 1.1)
+}
+
+.carousel-item:hover .mid-text {
+  transform: scale(1.1, 1.1)
+}
+
+.nav-text {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+}
+
 .card-deck {
-    margin: 100px;
+    margin: 80px;
     cursor: pointer;
 }
 
 .card {
-<<<<<<< HEAD
     background-color: white;
     border: none;
     padding: 0px;
     text-align: center;
     box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3)
     
-=======
-    background-color: transparent;
-    border: none;
-    padding: 30px;
-    text-align: center;
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 }
 
 .card:hover  {
     color:#ed6a5a;
-<<<<<<< HEAD
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-=======
-    
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 
 }
 a{
     color:black
 }
 .card:hover a{
-<<<<<<< HEAD
     color:#4281a4;
-=======
-    color:#ed6a5a;
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
     text-decoration: none
     
 
 }
 
 
-<<<<<<< HEAD
 .non-display{display:none; 
 }
 .card:hover .non-display{display:inline
@@ -57,10 +118,10 @@ display:none;
 .bookmarks{
     width: 0px;
     height: 0px;
-    border-top: 40px solid white;
-    border-bottom: 40px solid transparent;
-    border-left: 40px solid white;
-    border-right:40px solid transparent;
+    border-top: 60px solid white;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid white;
+    border-right:60px solid transparent;
     position: absolute;
     
    
@@ -78,10 +139,10 @@ display:none;
   margin-top:-40px
 }
 .bookmarks-text{
-    font-size: 18px;
+    font-size: 27px;
                     font-weight: bolder;
-                    margin-left: -40px;
-                    margin-top: -25px;
+                    margin-left: -50px;
+                    margin-top: -40px;
                     min-width: 55px; 
                     color:black;
 }
@@ -92,16 +153,6 @@ display:none;
     margin-top: -40px;
     min-width: 55px;
     color: white;}
-=======
-.non-display{display:none
-}
-.card:hover .non-display{display:inline
-}
-.card:hover .display{
-display:none;
-}
-
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 .card-title {
     text-align: center;
     font-weight: bolder;
@@ -109,7 +160,6 @@ display:none;
 
 }
 
-<<<<<<< HEAD
 
 .card-img-top {
     width: 100%;
@@ -125,16 +175,10 @@ display:none;
     text-align: justify;
  padding-left:40px;
  padding-right:40px
-=======
-.card-text{
-    font-size: 16px;
-    text-align: justify
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 
 }
 .card-bottom {
 
-<<<<<<< HEAD
   font-family: FontAwesome;
 
     text-align:center;
@@ -144,16 +188,6 @@ display:none;
     font-weight: 900;
     text-decoration: 1px dotted;
    
-=======
-    text-align: center;
-    cursor: pointer;
-    display: block;
-    font-size: 20px;
-   font-weight: 900
-    
-
-
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 
 }
 .card-body{
@@ -163,10 +197,6 @@ padding-right:0px;
 }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 .footer-circle {
     width: 64px;
     height: 64px;
@@ -207,7 +237,6 @@ footer>div>div {
     footer>div>div {
         width: 50%
     }
-<<<<<<< HEAD
     .bookmarks{width: 0px;
       height: 0px;
       border-top: 20px solid white;
@@ -241,8 +270,6 @@ font-size:10px
 }
 
 
-=======
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
 }
 
 @media screen and (min-width: 1024px) {
@@ -259,8 +286,7 @@ font-size:10px
 }
 
 .flex-footer>img {
-<<<<<<< HEAD
-    min-width:300px;
+    min-width:114px;
     margin-bottom: 48px;
 }
 
@@ -495,8 +521,3 @@ body {
 
 		
 			
-=======
-    min-width: 114px;
-    margin-bottom: 48px;
-}
->>>>>>> a077a721c512b49a67f49ff50859fbfc6002c5ba
