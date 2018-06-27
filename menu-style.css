@@ -25,48 +25,99 @@
   align-items: center;
   width: 50%;
   height: 70px;
-  margin: 0 3%
+  margin: 0 5%
 }
 
 .menu-logo {
   box-sizing: border-box;
-  padding-top: 10px;
   height: 65px;
-  margin: 0% 10%
+  margin: 10px 10%
+}
+@media screen and (max-width:450px){
+  .menu-logo{
+    max-height: 50px;
+  }
+ 
 }
 
 .full-vp {
   width: 100vw;
   height: 100vh;
-  box-sizing: border-box;
-}
-
-.full-vp>img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
+  filter: brightness(.95)
 }
-
+.full-vp img:hover{
+  filter: brightness(1.1)
+}
+.object-down{
+  object-position: 50% 0%
+}
+@media  screen and (max-width:768px){
+  .object-move-70{
+    object-position: 70% 0%
+  }
+}
 .carousel-title {
   font-size: 24pt;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.9)
+  color: rgba(255, 255, 255, 0.7)
 }
 
 .mid-text {
   font-size: 16pt;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.9)
+  color: rgba(255, 255, 255, 0.7)
 }
 
+@media  screen and (max-width:768px){
+  .mid-text {
+    font-size: 12pt;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7)
+  }
+  .carousel-title {
+    font-size: 16pt;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7)
+    
+  }
+}
+@media  screen and(min-width:450) and (max-width:768px){
+  .mid-text {
+    font-size: 12pt;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7)
+  }
+  .carousel-title {
+    font-size: 16pt;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7)
+    
+  }
+}
+@media  screen and(max-width:450){
+  .mid-text {
+    font-size: 8pt;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7)
+  }
+  .carousel-title {
+    font-size: 10pt;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7)
+    
+  }
+}
 
 
 .carousel-item:hover .carousel-title {
-  transform: scale(1.1, 1.1)
+  transform: scale(1, 1);
+  color: rgba(255, 255, 255, 0.9)
 }
 
 .carousel-item:hover .mid-text {
-  transform: scale(1.1, 1.1)
+  transform: scale(1,1 );
+  color: rgba(255, 255, 255, 0.9)
 }
 
 .nav-text {
