@@ -453,3 +453,29 @@ footer>div>div {
     min-width: 114px;
     margin-bottom: 48px;
 }
+@media screen and (max-width: 768px) {
+    .flex-footer {
+        width: calc(270/320*100%);
+    }
+    footer>div>div {
+        width: 50%
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .flex-footer {
+        max-width: 100%;
+    }
+   
+}
+
+.flex-footer>div {
+    min-width: 114px;
+    margin-bottom: 48px;
+
+}
+
+.flex-footer>img {
+    min-width: 114px;
+    margin-bottom: 48px;
+}
