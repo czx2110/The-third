@@ -82,19 +82,7 @@
     
   }
 }
-@media  screen and(min-width:450) and (max-width:768px){
-  .mid-text {
-    font-size: 12pt;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.7)
-  }
-  .carousel-title {
-    font-size: 16pt;
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.7)
-    
-  }
-}
+
 @media  screen and(max-width:450){
   .mid-text {
     font-size: 8pt;
