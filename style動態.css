@@ -85,11 +85,23 @@ article>figure {
         margin-left: auto;
         margin-right: auto;
     }
+    article>video {
+        width: 678px;
+        margin-top:20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
 @media screen and (min-width: 1024px) {
     article>figure {
+        width: 900px;
+        margin-top:20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    article>video {
         width: 900px;
         margin-top:20px;
         margin-left: auto;
@@ -419,38 +431,53 @@ article>.author-box, {
 }
 
 
+footer>div{
+    width:678px;
+    color:#ED6A5A;
+}
+
 .flex-footer {
     display: flex;
-    justify-content: space-around;
-    max-width: 678px;
+    justify-content: center;
+    width: 100%;
     margin: 0 auto;
     padding-top: 65px;
     flex-wrap: wrap;
     background-color: #ED6A5A;
 }
 
-footer>div>div {
-    width: 25%
-}
 
 @media screen and (max-width: 768px) {
     .flex-footer {
-        width: calc(270/320*100%);
+        width: 100%;
     }
     footer>div>div {
         width: 50%
     }
 }
 
+@media screen and (min-width: 769px) {
+    .flex-footer {
+        max-width: 100%;
+    }
+    footer>div>div {
+        width:25%；
+    }
+    footer>div>div {
+        width:225px
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .flex-footer {
-        max-width: 900px;
+        max-width: 100%;
     }
 }
 
 .flex-footer>div {
     min-width: 114px;
     margin-bottom: 48px;
+
 }
 
 .flex-footer>img {
@@ -557,7 +584,6 @@ footer>div>div {
 
 .to-animate2 .hide{
     transform: rotateY(90deg);
-    transition-delay: 0.2s;
 }
 
 .layer-hide{
@@ -573,7 +599,7 @@ footer>div>div {
     left: 0px;
     top: 0px;
     z-index: -3;
-    animation: linear 1.5s;
+    animation: linear 2s;
 
 }
 
@@ -582,7 +608,7 @@ footer>div>div {
     left: 0px;
     top: 0px;
     z-index: -4;
-    animation:  linear 1.5s;
+    animation:  linear 2s;
 
 }
 
@@ -591,5 +617,5 @@ footer>div>div {
     left: 0px;
     top: 0px;
     z-index: -5;
-    animation:  linear 1.5s;
+    animation:  linear 2s;
 }
