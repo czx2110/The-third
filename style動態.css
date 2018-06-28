@@ -423,75 +423,6 @@ article>.author-box, {
     font-weight:550;
 }
 
-.footer-circle {
-    width: 64px;
-    height: 64px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.footer-text {
-    margin-top: 15px;
-    font-size: 18px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-
-footer>div{
-    width:678px;
-    color:#ED6A5A;
-}
-
-.flex-footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 65px;
-    flex-wrap: wrap;
-    background-color: #ED6A5A;
-}
-
-
-@media screen and (max-width: 768px) {
-    .flex-footer {
-        width: 100%;
-    }
-    footer>div>div {
-        width: 50%
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .flex-footer {
-        max-width: 100%;
-    }
-    footer>div>div {
-        width:25%；
-    }
-    footer>div>div {
-        width:225px
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .flex-footer {
-        max-width: 100%;
-    }
-}
-
-.flex-footer>div {
-    min-width: 114px;
-    margin-bottom: 48px;
-
-}
-
-.flex-footer>img {
-    min-width: 114px;
-    margin-bottom: 48px;
-}
-
 .layer-bottom{
     position: absolute;
     left: 0px;
@@ -625,4 +556,76 @@ footer>div{
     top: 0px;
     z-index: -5;
     animation:  linear 2s;
+}
+
+.footer-circle {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer>div{
+    width:678px;
+    color:#ED6A5A;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 65px;
+    flex-wrap: wrap;
+    background-color: #ED6A5A;
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex-footer {
+        width: 100%;
+    }
+    footer>div>div {
+        width: 50%
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .flex-footer {
+        max-width: 100%;
+    }
+    footer>div>div {
+        width:25%；
+    }
+    footer>div>div {
+        width:225px
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .flex-footer {
+        max-width: 100%;
+    }
+    
+footer{
+    width:100vw;margin-left:-180px;
+}
+}
+
+.flex-footer>div {
+    min-width: 114px;
+    margin-bottom: 48px;
+
+}
+
+.flex-footer>img {
+    min-width: 114px;
+    margin-bottom: 48px;
 }
