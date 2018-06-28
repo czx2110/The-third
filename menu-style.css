@@ -204,10 +204,11 @@ font-size: 27px;
   margin-top: -40px;
   min-width: 55px;
   color: white;}
+
 .card-title {
   text-align: center;
   font-weight: bolder;
-  font-size: 30px
+  font-size: 35px
 
 }
 
@@ -331,9 +332,7 @@ footer>div{
     color: black;
 }
 .card-deck {
-  margin-top: 40px;
-  margin-right: 80px;
-  margin-left:80px;
+  margin: 0px;
   cursor: pointer;
 }
 .card-text{
