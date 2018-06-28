@@ -614,11 +614,6 @@ footer>div{
         max-width: 100%;
     }
     
-footer{
-    width:100vw;margin-left:-180px;
-}
-}
-
 .flex-footer>div {
     min-width: 114px;
     margin-bottom: 48px;
@@ -628,4 +623,5 @@ footer{
 .flex-footer>img {
     min-width: 114px;
     margin-bottom: 48px;
+}
 }
