@@ -324,12 +324,11 @@ footer>div{
     position: absolute;
   }
   .bookmarks-text{
-    font-size: 10px;
-                    font-weight: bolder;
-                    margin-left: -35px;
-  margin-top: -16px;
-                    min-width: 55px; 
-                    color:black;
+   font-size: 20px;
+    font-weight: bolder;
+    margin-left: -45px;
+    margin-top: -25px;
+    color: black;
 }
 .card-deck {
   margin: 0px;
