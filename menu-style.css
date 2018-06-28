@@ -489,7 +489,7 @@ font-size: 18px;
 
 }
 .blog-card .description p:after {
-content: "\f007";
+content: "";
 background: #4281a4;
 height: 6px;
 width: 120px;
